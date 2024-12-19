@@ -1,2 +1,2 @@
-#주석
-print("Hello World!")
+My_age = 20
+My_age2 = 20
