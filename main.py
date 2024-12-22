@@ -1,26 +1,13 @@
-def plus(a=0, b=0):
-  print(a + b)
+def tax_calc(money):
+  return money * 0.35
 
-def minus(a=0, b=0):
-  print(a - b)
+def pay_tax(tax):
+  print("thank you for paying", tax)
 
-def division(a=0, b=1):
-  print(a / b)
+pay_tax(tax_calc(150000000))
 
-def multi(a=0, b=1):
-  print(a * b)
-
-def pow(a=0, b=1):
-  print (a ** b)
-
-plus(30,20)
-minus(30,21)
-division(20, 5)
-multi(40,70)
-pow(3,5)
-
-plus()
-minus()
-division()
-multi()
-pow()
+#return
+#tax_calc(money)이 함수는 tax_calc(150000000) 이 숫자를 가지고 실행시킴
+#그럼 money * 0.35 이 식에서 비율의 결과를 받게 되는데, 이게 우리에게 값을 줌
+#그 준 값이 return이다
+#return 이란, 함수 바깥으로 값을 보낸다는 의미
